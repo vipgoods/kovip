@@ -11,5 +11,5 @@ jobs:
         with:
           # 下方的name格式为：Docker Hub ID/自定义镜像名称
           name: good01/kovip
-          username: '${{ secretsDOCKER_USERNAME }}'
-          password: '${{ secretsDOCKER_PASSWORD }}'
+          username: '${{ SECRETSDOCKER_USERNAME }}'
+          password: '${{ SECRETSDOCKER_PASSWORD }}'
